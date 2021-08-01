@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  padding: 20px 60px;
+  box-sizing: border-box;
+  font-family: "Open Sans Condensed", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
