@@ -9,6 +9,7 @@ import FormPage from "./pages/form/form.component";
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
 import { setCurrentUser } from "./redux/user/user.action";
 import { selectCurrentUser } from "./redux/user/user.selectors";
+import CheckoutPage from "./pages/checkout/checkout.component";
 
 import "./App.css";
 
@@ -42,6 +43,7 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/shop" component={ShopPage} />
+          <Route path="/checkout" component={CheckoutPage} />
           <Route
             exact
             path="/signin"
