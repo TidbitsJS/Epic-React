@@ -12,7 +12,7 @@ class ShopPage extends Component {
         <Route exact path={`${match.path}`} component={CollectionOverview} />
         <Route
           exact
-          path={`${match.path}/:categoryId`}
+          path={`${match.path}/:collectionId`}
           component={CollectionPage}
         />
       </div>
