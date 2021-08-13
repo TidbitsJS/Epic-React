@@ -36,3 +36,5 @@ A repository for tracking advance ReactJS learning with other technologies inclu
      Advance e-commerce website build with the technology - Redux, Redux-saga, Sass, firebase, stripe, etc.
 
 > Note - The firebase setup required for the `Bazaar project` is [here](./firebaseSetup.md).
+
+** Stripe ** - For stripe payments integration, visit [stripe](https://stripe.com/en-in), create an account and get the `publishable key`.

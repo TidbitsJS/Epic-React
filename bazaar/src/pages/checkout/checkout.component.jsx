@@ -45,7 +45,7 @@ const CheckoutPage = ({ cartItems, total }) => {
         Visa: 4242 4242 4242 4242 - Exp: 01/45 (any future date) - CVV: 123 (any
         3 digits)
         <br />
-        Mastercard: 5555 5555 5555 555 - Exp: 01/55 - CVV: 456
+        Mastercard: 5555 5555 5555 4444 - Exp: 01/55 - CVV: 456
         <br />
         American Express: 3782 822463 10005 - Exp: 01/90 - CVV: 1234 (any 4
         digits)
