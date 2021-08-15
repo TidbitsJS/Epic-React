@@ -23,7 +23,7 @@ export const AddButton = styled(CustomButton)`
   width: 80%;
   opacity: 0.7;
   position: absolute;
-  top: 255px;
+  bottom: 18%;
   display: none;
 `;
 

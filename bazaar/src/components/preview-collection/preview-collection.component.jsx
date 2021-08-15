@@ -1,12 +1,18 @@
 import React from "react";
+import { withRouter } from "react-router";
 import CollectionItem from "../collection-item/collection-item.component";
 
 import "./preview-collection.styles.scss";
 
-const PreviewCollection = ({ title, items }) => {
+const PreviewCollection = ({ title, items, history, match, routeName }) => {
   return (
     <div className="collection-preview">
-      <h1 className="title">{title}</h1>
+      <h1
+        className="title"
+        onClick={() => history.push(`${match.path}/${routeName}`)}
+      >
+        {title}
+      </h1>
       <div className="preview">
         {items
           .filter((item, idx) => idx < 4)
@@ -18,4 +24,4 @@ const PreviewCollection = ({ title, items }) => {
   );
 };
 
-export default PreviewCollection;
+export default withRouter(PreviewCollection);
