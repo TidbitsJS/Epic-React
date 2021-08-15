@@ -46,8 +46,28 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
     }
   }
 
-  console.log("Snapshot", snapShot);
   return userRef;
 };
+
+/*
+
+@@@ To add shop items data programmatically in firestore
+
+export const addCollectionAndDocuments = async (
+  collectionKey,
+  objectsTodAdd
+) => {
+  const collectionRef = firestore.collection(collectionKey);
+
+  const batch = firestore.batch();
+  objectsTodAdd.forEach((obj) => {
+    const newDocRef = collectionRef.doc();
+    batch.set(newDocRef, obj);
+  });
+
+  return await batch.commit();
+};
+
+*/
 
 export default firebase;
