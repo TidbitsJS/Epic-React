@@ -35,6 +35,10 @@ A repository for tracking advance ReactJS learning with other technologies inclu
 
      Advance e-commerce website build with the technology - Redux, Redux-saga, Sass, firebase, stripe, etc.
 
+   - [HOC](./hoc)
+
+     Simple project to demonstrate how to create HOC i.e. High Order Components
+
 > Note - The firebase setup required for the `Bazaar project` is [here](./firebaseSetup.md).
 
 ** Stripe ** - For stripe payments integration, visit [stripe](https://stripe.com/en-in), create an account and get the `publishable key`.
